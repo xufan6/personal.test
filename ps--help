@@ -16,7 +16,7 @@ x  没有控制终端的进程                 t  按tty
 -l,l 长格式        u  user-oriented   --sort --tty --forest --version
 -F   更全格式      X  registers       --heading --no-heading --context
                     ************* 其他选项 *************
--V,V  显示版本		L  list format codes  f  ASCII art forest
--m,m,-L,-T,H  线程	S  children in sum    -y change -l format
--M,Z  安全数据		c  真实命令名         -c scheduling class
--w,w  宽输出		n  numeric WCHAN,UID  -H process hierarchy
+-V,V  显示版本		L  列出格式说明符     f  ASCII字符树状 
+-m,m,-L,-T,H  线程	S  累积子进程         -y 改变-l格式 
+-M,Z  安全数据		c  真实命令名         -c 调度类 
+-w,w  宽输出		n  数字表示WCHAN,UID  -H 进程层次结构
