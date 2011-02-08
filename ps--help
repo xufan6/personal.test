@@ -4,20 +4,19 @@
 -a 所有终端上除了控制进程             -U 按真实用户ID (支持名字)
 -d 所有除了控制进程                   -g 按会话 OR 按有效组名
 -e 所有进程                           -p 按进程ID
-T  在此终端的所有进程                 -s processes in the sessions given
+T  在此终端的所有进程                 -s 按指定会话的进程 
 a  所有终端上的, 包括另外用户的       -t 按tty
 g  废弃 -- 不要用                     -u 按有效用户ID (支持名字)
-r  仅在运行的进程                     U  processes for specified users
+r  仅在运行的进程                     U  指定用户进程
 x  没有控制终端的进程                 t  按tty
 ************* 输出格式 *************  ************** 长选项 **************
--o,o user-defined  -f 全格式          --Group --User --pid --cols --ppid
--j,j job control   s  signal          --group --user --sid --rows --info
--O,O preloaded -o  v  virtual memory  --cumulative --format --deselect
+-o,o 用户定义      -f 全格式          --Group --User --pid --cols --ppid
+-j,j 工作控制      s  信号            --group --user --sid --rows --info
+-O,O 预载的 -o     v  虚拟内存        --cumulative --format --deselect
 -l,l 长格式        u  user-oriented   --sort --tty --forest --version
 -F   更全格式      X  registers       --heading --no-heading --context
                     ************* 其他选项 *************
--V,V  显示版本          L  list format codes  f  ASCII art forest
--m,m,-L,-T,H  threads   S  children in sum    -y change -l format
--M,Z  security data     c  真实命令名         -c scheduling class
--w,w  wide output       n  numeric WCHAN,UID  -H process hierarchy
-
+-V,V  显示版本		L  list format codes  f  ASCII art forest
+-m,m,-L,-T,H  线程	S  children in sum    -y change -l format
+-M,Z  安全数据		c  真实命令名         -c scheduling class
+-w,w  宽输出		n  numeric WCHAN,UID  -H process hierarchy
